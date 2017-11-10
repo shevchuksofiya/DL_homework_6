@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": ""
+  },
+  "text": {
+    "more": "Размер узлов рассчитан по их мощности.\nРаскрашен граф по модулярности.\nПолучившиеся сообщества соответствуют действительности - самое большое (из-за ранних связей и постоянного взаимодействия со всей группой) двухцветное сообщество (голубо-розовое) - \nэто люди из двух разных спортивных школе. Зеленая (травяной) группа - одноклассники. Рыжая - из одного вк-сообщества. Красное - люди из одной спортивной команды.\nЧасть друзей (серые) - не имеют связей, в основном это случайные знакомства. Зеленая (изумрудный) - родственники. \nСеро-коричневая - одногруппники.",
+    "intro": "Граф моих вк друзей.",
+    "title": ""
+  },
+  "legend": {
+    "edgeLabel": "relation \"friends\" between my friends",
+    "colorLabel": "distinguishes one group from another",
+    "nodeLabel": "my vk friend"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
